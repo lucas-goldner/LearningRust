@@ -1,3 +1,5 @@
+mod hello;
 fn main() {
-    println!("Hello World")
+    let x = hello::add(2, 4);
+    print!("{}", x);
 }
